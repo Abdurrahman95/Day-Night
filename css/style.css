@@ -1,0 +1,71 @@
+.night {
+    background-color: black;
+}
+
+.morning {
+    background-color: aqua;
+}
+
+body {
+    transition: all 0.5s;
+}
+.toggler {
+	position: relative;
+}
+.toggler,
+.moon,
+sun {
+    padding: 15px;
+    background: none;
+    color: gray;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    transition: background 0.5s, border .3s, box-shadow 0.5s;
+}
+
+.moon {
+    background-color: #bdc3c7;
+    border: 10px solid #eaeff2;
+    box-shadow: 3px 3px 8px rgba(255, 255, 255, 0.5), -1px -1px 8px rgba(255, 255, 255, 0.5);
+}
+
+.sun {
+    border: 10px solid orange;
+    background-color: yellow;
+    box-shadow: 3px 3px 8px rgba(227, 195, 18, 0.52), -1px -1px 8px rgba(227, 195, 18, 0.52);
+}
+
+.sun:hover{
+    border: 20px solid orange;
+}
+.moon:hover {
+	border: 20px solid #eaeff2;
+}
+.moon-spot{
+    background-color: white;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+}
+#moon-spot1 {
+	top: 50px; left: 75px;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+#moon-spot2 {
+	top: 70px; left: 175px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+#moon-spot3 {
+	top: 190px; left: 98px;
+    border-radius: 100%;
+    width: 56px;
+    height: 60px;
+     
+}
